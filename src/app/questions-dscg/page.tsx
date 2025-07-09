@@ -88,7 +88,7 @@ Pour les métiers du marketing et des achats/approvisionnement, la cartographie 
 
 **Les 5M :**
 - **Machine** : Infrastructure technique
-- **Main d'œuvre** : Compétences et formation
+- **Main d&apos;œuvre** : Compétences et formation
 - **Méthode** : Processus et procédures
 - **Matière** : Données et informations
 - **Milieu** : Environnement organisationnel
@@ -178,11 +178,11 @@ export default function QuestionsDSCGPage() {
           
           <div className="prose max-w-none">
             <p className="text-gray-700 mb-4">
-              La <strong>modélisation du SI</strong> est une étape <strong>majeure</strong> et fondamentale pour atteindre un <strong>consensus sur l'existant</strong> au sein d'une organisation. Cette démarche s'appuie sur des approches complémentaires, chacune visant à représenter un aspect spécifique du SI et à gérer ses évolutions.
+              La <strong>modélisation du SI</strong> est une étape <strong>majeure</strong> et fondamentale pour atteindre un <strong>consensus sur l&apos;existant</strong> au sein d&apos;une organisation. Cette démarche s&apos;appuie sur des approches complémentaires, chacune visant à représenter un aspect spécifique du SI et à gérer ses évolutions.
             </p>
             
             <p className="text-gray-700 mb-6">
-              Elle est essentielle pour l'urbanisation du SI, qui vise à assurer la <strong>cohérence des évolutions et transformations</strong> du SI avec les objectifs métiers et opérationnels de l'entreprise, en respectant la stratégie du SI.
+              Elle est essentielle pour l&apos;urbanisation du SI, qui vise à assurer la <strong>cohérence des évolutions et transformations</strong> du SI avec les objectifs métiers et opérationnels de l&apos;entreprise, en respectant la stratégie du SI.
             </p>
 
             <h3 className="text-xl font-semibold text-gray-900 mb-4">Les trois cartographies fondamentales :</h3>
@@ -198,7 +198,7 @@ export default function QuestionsDSCGPage() {
               <div className="bg-purple-50 border border-purple-200 rounded-lg p-4">
                 <h4 className="font-semibold text-purple-800 mb-2">2. Cartographie Applicative</h4>
                 <p className="text-sm text-purple-700">
-                  Décrit les <strong>composants logiciels</strong> du système d'information, les services qu'ils offrent et les <strong>flux de données</strong> entre eux.
+                  Décrit les <strong>composants logiciels</strong> du système d&apos;information, les services qu&apos;ils offrent et les <strong>flux de données</strong> entre eux.
                 </p>
               </div>
               
@@ -216,7 +216,7 @@ export default function QuestionsDSCGPage() {
         <div className="space-y-6">
           <div className="flex items-center gap-3 mb-6">
             <Target className="h-6 w-6 text-red-600" />
-            <h2 className="text-2xl font-bold text-gray-900">Questions d'examens DSCG</h2>
+            <h2 className="text-2xl font-bold text-gray-900">Questions d&apos;examens DSCG</h2>
           </div>
 
           {questionsData.map((question) => (
@@ -282,7 +282,7 @@ export default function QuestionsDSCGPage() {
         <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 mt-8">
           <div className="flex items-center gap-3 mb-4">
             <Lightbulb className="h-6 w-6 text-blue-600" />
-            <h3 className="text-xl font-semibold text-blue-900">Conseils pour l'examen</h3>
+            <h3 className="text-xl font-semibold text-blue-900">Conseils pour l&apos;examen</h3>
           </div>
           <ul className="space-y-2 text-blue-800">
             <li className="flex items-start gap-2">
@@ -295,7 +295,7 @@ export default function QuestionsDSCGPage() {
             </li>
             <li className="flex items-start gap-2">
               <span className="text-blue-600 mt-1">•</span>
-              <span>Sachez justifier le recours à l'urbanisation dans des contextes donnés</span>
+              <span>Sachez justifier le recours à l&apos;urbanisation dans des contextes donnés</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-blue-600 mt-1">•</span>

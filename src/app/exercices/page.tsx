@@ -149,7 +149,7 @@ export default function ExercicesPage() {
             </h1>
           </div>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            Exercices d'application des concepts de modélisation du SI basés sur des cas concrets
+            Exercices d&apos;application des concepts de modélisation du SI basés sur des cas concrets
           </p>
         </div>
 
@@ -304,7 +304,7 @@ export default function ExercicesPage() {
             href="/quiz" 
             className="flex items-center gap-2 text-orange-600 hover:text-orange-700 font-medium transition-colors"
           >
-            Quiz d'évaluation
+            Quiz d&apos;évaluation
             <ArrowRight className="h-4 w-4" />
           </Link>
         </div>
