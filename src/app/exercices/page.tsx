@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { ArrowLeft, ArrowRight, FileText, ChevronDown, ChevronUp, BookOpen, Target, Lightbulb, CheckCircle, Building2, Network, Server } from 'lucide-react';
+import { ArrowLeft, ArrowRight, FileText, ChevronDown, ChevronUp, Target, Lightbulb, CheckCircle, Building2, Network, Server } from 'lucide-react';
 import BackToPlanButton from '@/components/content/BackToPlanButton';
 
 interface Exercise {
@@ -44,7 +44,7 @@ const exercisesData: Exercise[] = [
     context: 'Afin de réussir la réorganisation des DSI du groupe SD3i, vous intervenez en premier lieu sur la gouvernance et l\'architecture du système d\'information. L\'objectif est de proposer un schéma qui doit répondre à l\'indépendance totale du système d\'information de la société DIGITAL INTEGRATION.',
     questions: [
       '1. Définir la notion de gouvernance des systèmes d\'information et préciser pourquoi il est important de la redéfinir dans ce contexte.',
-      '2. Modéliser le nouveau schéma d\'architecture que les trois sociétés doivent atteindre fin 2022 pour assurer l\'indépendance totale du système d\'information de la société DIGITAL INTEGRATION.'
+      '2. Modélisez le nouveau schéma d\'architecture que les trois sociétés doivent atteindre fin 2022 pour assurer l\'indépendance totale du système d\'information de la société DIGITAL INTEGRATION.'
     ],
     tips: [
       'La gouvernance SI concerne la prise de décision, le contrôle et la supervision des SI',

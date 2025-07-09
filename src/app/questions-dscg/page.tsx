@@ -17,23 +17,23 @@ const questionsData: QuestionSection[] = [
   {
     id: 'session-2023-q9',
     session: 'Session 2023',
-    question: 'Après avoir défini la notion d\'urbanisation du Système d\'information, présenter un minimum de trois éléments de révision des documents d\'urbanisation dans le cadre des bascules de GED chez vos clients.',
-    correction: `L'urbanisation du système d'information vise à assurer la **cohérence des évolutions et transformations** du SI avec les objectifs métiers et opérationnels de l'entreprise, en respectant sa stratégie. Elle assure la **direction de la transformation continue du SI** et la conservation d'un **SI applicatif homogène** lors de chaque évolution ou changement de processus informatique.
+    question: 'Après avoir défini la notion d&apos;urbanisation du Système d&apos;information, présenter un minimum de trois éléments de révision des documents d&apos;urbanisation dans le cadre des bascules de GED chez vos clients.',
+    correction: `L&apos;urbanisation du système d&apos;information vise à assurer la **cohérence des évolutions et transformations** du SI avec les objectifs métiers et opérationnels de l&apos;entreprise, en respectant sa stratégie. Elle assure la **direction de la transformation continue du SI** et la conservation d&apos;un **SI applicatif homogène** lors de chaque évolution ou changement de processus informatique.
 
-Parmi les éléments de révision des documents d'urbanisation, figurent notamment les **éléments de processus**. La nouvelle GED (Gestion Électronique Documentaire) peut introduire de nouvelles fonctionnalités applicatives qui doivent être cataloguées dans l'urbanisation du SI sous forme de **cartographie des processus**.
+Parmi les éléments de révision des documents d&apos;urbanisation, figurent notamment les **éléments de processus**. La nouvelle GED (Gestion Électronique Documentaire) peut introduire de nouvelles fonctionnalités applicatives qui doivent être cataloguées dans l&apos;urbanisation du SI sous forme de **cartographie des processus**.
 
-D'autres éléments à réviser sont :
-- Les éléments d'infrastructure technique
-- Les éléments d'interface
+D&apos;autres éléments à réviser sont :
+- Les éléments d&apos;infrastructure technique
+- Les éléments d&apos;interface
 - Les éléments de sécurité
-- Les éléments d'architecture applicative`,
+- Les éléments d&apos;architecture applicative`,
     context: 'Dossier 1, Question 9'
   },
   {
     id: 'session-2022-q2',
     session: 'Session 2022',
-    question: 'Modéliser le nouveau schéma d\'architecture que les trois sociétés doivent atteindre fin 2022.',
-    correction: `La correction détaille précisément les **modifications à apporter au schéma d'architecture existant** pour atteindre la cible d'indépendance de la société Digital Integration.
+    question: 'Modéliser le nouveau schéma d&apos;architecture que les trois sociétés doivent atteindre fin 2022.',
+    correction: `La correction détaille précisément les **modifications à apporter au schéma d&apos;architecture existant** pour atteindre la cible d&apos;indépendance de la société Digital Integration.
 
 Cela inclut :
 
@@ -54,35 +54,35 @@ Cela inclut :
 - Messagerie
 - Modem/routeur
 
-Un **schéma d'architecture modélisé** est fourni, montrant la nouvelle répartition et interconnexion des composants du SI pour les différentes entités.`,
+Un **schéma d&apos;architecture modélisé** est fourni, montrant la nouvelle répartition et interconnexion des composants du SI pour les différentes entités.`,
     context: 'Dossier 1, Question 2'
   },
   {
     id: 'session-2019-q2',
     session: 'Session 2019',
-    question: 'Cartographier les processus des deux métiers (le marketing et les achats/approvisionnement) ciblés par la démarche d\'urbanisation du SI de SOLIDOR.',
-    correction: `La **cartographie des processus métier** est définie comme une **représentation graphique des activités** articulées au sein d'un métier, visant à délivrer un produit ou service créateur de valeur ajoutée.
+    question: 'Cartographier les processus des deux métiers (le marketing et les achats/approvisionnement) ciblés par la démarche d&apos;urbanisation du SI de SOLIDOR.',
+    correction: `La **cartographie des processus métier** est définie comme une **représentation graphique des activités** articulées au sein d&apos;un métier, visant à délivrer un produit ou service créateur de valeur ajoutée.
 
 Pour les métiers du marketing et des achats/approvisionnement, la cartographie vise à **schématiser la cohérence, le suivi et le contrôle** des opérations :
 
 **Marketing :**
-- Personnalisation de l'offre
+- Personnalisation de l&apos;offre
 - Évaluation de la fidélité/satisfaction
 
 **Achats/Approvisionnement :**
-- Opérations d'achat
-- Opérations d'approvisionnement
+- Opérations d&apos;achat
+- Opérations d&apos;approvisionnement
 - Suivi et contrôle des processus`,
     context: 'Dossier 1, Question 2'
   },
   {
     id: 'session-2019-q3',
     session: 'Session 2019',
-    question: 'Proposer une représentation graphique synthétique (par exemple un diagramme d\'Ishikawa ou un diagramme « en arrêtes de poisson ») du processus d\'urbanisation du SI de SOLIDOR ayant pour objectif l\'augmentation des volumes des ventes.',
-    correction: `La correction indique que le **diagramme d'Ishikawa** (ou en arêtes de poisson) permet d'analyser les causes (les 5M : Machine, Main d'œuvre, Méthode, Matière, Milieu) pour atteindre un effet désiré (ici, augmenter les volumes des ventes).
+    question: 'Proposer une représentation graphique synthétique (par exemple un diagramme d&apos;Ishikawa ou un diagramme « en arrêtes de poisson ») du processus d&apos;urbanisation du SI de SOLIDOR ayant pour objectif l&apos;augmentation des volumes des ventes.',
+    correction: `La correction indique que le **diagramme d&apos;Ishikawa** (ou en arêtes de poisson) permet d&apos;analyser les causes (les 5M : Machine, Main d&apos;œuvre, Méthode, Matière, Milieu) pour atteindre un effet désiré (ici, augmenter les volumes des ventes).
 
 **Méthodologie :**
-1. Formuler l'effet recherché
+1. Formuler l&apos;effet recherché
 2. Déterminer les dispositifs requis pour chacune des cinq catégories de causes
 3. Les représenter de manière lisible et synthétique
 
@@ -93,24 +93,24 @@ Pour les métiers du marketing et des achats/approvisionnement, la cartographie 
 - **Matière** : Données et informations
 - **Milieu** : Environnement organisationnel
 
-Bien que ce ne soit pas une modélisation purement technique du SI, c'est une **modélisation visuelle du processus d'urbanisation** lié au SI et à ses objectifs.`,
+Bien que ce ne soit pas une modélisation purement technique du SI, c&apos;est une **modélisation visuelle du processus d&apos;urbanisation** lié au SI et à ses objectifs.`,
     context: 'Dossier 1, Question 3'
   },
   {
     id: 'session-2016-q3',
     session: 'Session 2016',
-    question: 'En tenant compte de l\'historique de SOVANI, justifier le recours à une réflexion sur l\'urbanisation du SI.',
-    correction: `La correction met en évidence que le SI de SOVANI a été construit "au fur et à mesure, en urgence parfois, **sans véritable schéma directeur**". Cela a conduit à une coexistence d'applications globalement non intégrées.
+    question: 'En tenant compte de l&apos;historique de SOVANI, justifier le recours à une réflexion sur l&apos;urbanisation du SI.',
+    correction: `La correction met en évidence que le SI de SOVANI a été construit "au fur et à mesure, en urgence parfois, **sans véritable schéma directeur**". Cela a conduit à une coexistence d&apos;applications globalement non intégrées.
 
-**Justifications de l'urbanisation :**
+**Justifications de l&apos;urbanisation :**
 
-Le recours à l'urbanisation du SI est justifié pour **repenser et reconstruire la cartographie applicative**, pour qu'elle réponde aux besoins :
-- D'intégration
+Le recours à l&apos;urbanisation du SI est justifié pour **repenser et reconstruire la cartographie applicative**, pour qu&apos;elle réponde aux besoins :
+- D&apos;intégration
 - De performance
 - Face aux nouveaux besoins liés aux objets connectés
 
 **Objectifs :**
-L'urbanisation doit permettre d'isoler des "zones, quartiers et blocs fonctionnels aptes à interagir avec le reste du système".
+L&apos;urbanisation doit permettre d&apos;isoler des "zones, quartiers et blocs fonctionnels aptes à interagir avec le reste du système".
 
 **Bénéfices attendus :**
 - Cohérence du SI
