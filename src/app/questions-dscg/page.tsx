@@ -164,8 +164,8 @@ export default function QuestionsDSCGPage() {
             </h1>
           </div>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            Questions d'examens DSCG avec corrections détaillées sur la modélisation 
-            et l'urbanisation des systèmes d'information
+            Questions d&apos;examens DSCG avec corrections détaillées sur la modélisation 
+            et l&apos;urbanisation des systèmes d&apos;information
           </p>
         </div>
 
@@ -299,7 +299,7 @@ export default function QuestionsDSCGPage() {
             </li>
             <li className="flex items-start gap-2">
               <span className="text-blue-600 mt-1">•</span>
-              <span>Pratiquez la modélisation graphique (diagrammes, schémas d'architecture)</span>
+              <span>Pratiquez la modélisation graphique (diagrammes, schémas d&apos;architecture)</span>
             </li>
           </ul>
         </div>
