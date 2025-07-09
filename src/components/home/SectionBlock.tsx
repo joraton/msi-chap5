@@ -52,25 +52,25 @@ export default function SectionBlock({ title, description, icon: Icon, color, hr
   const colors = colorVariants[color as keyof typeof colorVariants] || colorVariants.blue;
 
   return (
-    <div className="transition-all duration-200 hover:scale-[1.02] active:scale-[0.98]">
+    <div className="transition-all duration-200 hover:scale-[1.01] sm:hover:scale-[1.02] active:scale-[0.98]">
       <Link href={href}>
         <div className={`
           ${colors.bg} ${colors.border}
-          border-2 rounded-xl p-6 shadow-lg hover:shadow-xl 
+          border-2 rounded-lg sm:rounded-xl p-4 sm:p-5 lg:p-6 shadow-lg hover:shadow-xl 
           transition-all duration-300 cursor-pointer
-          flex items-center justify-between
+          flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:justify-between
         `}>
-          {/* Contenu gauche */}
-          <div className="flex items-center gap-4">
+          {/* Contenu principal */}
+          <div className="flex items-start sm:items-center gap-3 sm:gap-4 flex-1 w-full">
             {/* Icône */}
-            <div className={`${colors.iconBg} p-3 rounded-full`}>
-              <Icon className="h-6 w-6 text-white" />
+            <div className={`${colors.iconBg} p-2.5 sm:p-3 rounded-full flex-shrink-0`}>
+              <Icon className="h-5 w-5 sm:h-6 sm:w-6 text-white" />
             </div>
             
             {/* Texte */}
-            <div>
-              <h3 className="text-xl font-bold text-gray-900 mb-1">{title}</h3>
-              <p className="text-gray-600">{description}</p>
+            <div className="flex-1 min-w-0">
+              <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-1 leading-tight">{title}</h3>
+              <p className="text-sm sm:text-base text-gray-600 leading-relaxed">{description}</p>
             </div>
           </div>
           
@@ -78,9 +78,11 @@ export default function SectionBlock({ title, description, icon: Icon, color, hr
           <button
             className={`
               ${colors.button}
-              text-white px-6 py-3 rounded-lg font-medium
-              flex items-center gap-2 transition-all duration-200
+              text-white px-4 sm:px-5 lg:px-6 py-2.5 sm:py-3 rounded-lg font-medium
+              flex items-center justify-center gap-2 transition-all duration-200
               shadow-md hover:shadow-lg hover:translate-x-1
+              w-full sm:w-auto text-sm sm:text-base
+              mt-2 sm:mt-0 flex-shrink-0
             `}
           >
             Commencer

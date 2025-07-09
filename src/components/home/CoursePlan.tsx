@@ -71,21 +71,21 @@ export default function CoursePlan() {
   ];
 
   return (
-    <div className="space-y-8">
+    <div className="space-y-6 sm:space-y-8">
       {/* Titre de la section */}
       <div className="text-center">
-        <div className="flex items-center justify-center gap-3 mb-4">
-          <Target className="h-8 w-8 text-blue-600" />
-          <h2 className="text-3xl font-bold text-gray-900">Plan du cours</h2>
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-3 mb-3 sm:mb-4">
+          <Target className="h-6 w-6 sm:h-7 sm:w-7 lg:h-8 lg:w-8 text-blue-600" />
+          <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">Plan du cours</h2>
         </div>
-        <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+        <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto px-4 sm:px-0">
           Découvrez les trois cartographies fondamentales pour maîtriser la modélisation 
           des systèmes d&apos;information
         </p>
       </div>
 
       {/* Blocs des sections */}
-      <div className="space-y-4">
+      <div className="space-y-3 sm:space-y-4">
         {sections.map((section) => (
           <SectionBlock
             key={section.id}
